@@ -1,0 +1,294 @@
+body{
+    background-color: #0F0F0F;
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.columna1{
+
+    float: left;
+    /* display: inline; */
+    background-color: #0F0F0F;
+    
+    height: 900px;
+   
+    margin: 0;
+    padding: 0;
+}
+
+.aside{
+    background-color:  #0F0F0F;
+}
+
+.bli{
+    width: 200px;
+    height: 40px;
+    margin: 0px 3px 3px 0;
+    border-radius: 7%;
+    display: flex;  
+ }
+ .inicio{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    background-color:#222222;
+    border-radius: 7px;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 0 0 0px 15px;   
+    border-color: transparent;
+        
+}
+.menu{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    background-color: #0F0F0F;
+    border-radius: 0;
+    justify-content: flex-start;
+    margin: 0px 0 0px 5x;
+    align-items: center;
+    border-color: transparent;
+    /* padding: 0px;    */
+        
+    }
+.blimenu{
+    width: 200px;
+    height: 60px;
+    margin: 0px 3px 3px 0;
+    border-radius: 7%;
+    display: flex; 
+    padding: 5px 0 0 10px;    
+    border-color: transparent;
+    }
+
+
+
+.bli1{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    background-color: #0F0F0F;;
+    border-radius: 7px;
+    /* justify-content: flex-start; */
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;   
+    border-color: transparent;
+        
+    }
+
+.textop{    
+    /* float:right; */
+    font-size: 14px;
+    /* width: 100px; */
+    margin: 0px 5px 0 10px;
+    color:#FFFFFF;   
+}
+
+.nav{
+    background-color:#0F0F0F;
+    height: 60px;
+    padding: 0 16px 0 0;
+    /* margin: 0 0 0 0px; */
+    
+    display: flex;
+
+    justify-content: space-between;
+ }
+
+/* .logo-youtube1-1{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 56px;
+} */
+
+.buscador {
+    display: flex;
+    background-color:  #0F0F0F;
+    width: 800px;
+    height: 55px;
+    margin: 0px;
+    padding:0;
+    
+    /* float: left; */
+}
+
+.cajasearch{
+    
+    height: 40px;
+    border-color: transparent;
+    margin: 10px 0 0 0;
+    padding: 0%;
+}
+.search{
+    
+    background-color: transparent;
+    width: 540.06px;
+    height: 34px;
+    /* padding: 2px 0 5px 20px; */
+    margin: 0;
+    align-items: flex-start;
+    border-radius: 25px 0 0 25px;
+    border-color: rgb(139, 139, 139);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+.lupa{      
+    text-align: center;
+    color: #FFFFFF;    
+    width: 64px;  
+    height: 40px;
+    margin: 10px 0 0 0;
+    font-size: 25px;
+    border-radius: 0 25px 25px 0;    
+    top: 0;
+    right: 0;
+    background-color:#222222;
+    padding: 0;
+}
+.voice{      
+    text-align: center;
+    color:#FFFFFF;    
+    width: 40px;  
+    height: 40px;    
+    margin: 10px 0 0 2px;
+    font-size: 25px;
+    border-radius: 50%;    
+    top: 0;
+    right: 0;
+    background-color: #222222;
+}
+
+.bld{
+    margin: 10px 0 5px 5px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.icono{
+    background-color: rgba(27, 27, 31, 0.356);
+    margin: 5px;
+    padding: 0px;
+    border-color: transparent;
+    align-content: center;
+    align-items: center;
+    border-radius: 20%;
+   
+}
+
+
+.logo-youtube3{    
+    width: 328px;
+    padding: 20px;
+}
+
+.sugerencias{
+    background-color: #0F0F0F;
+}
+p{
+    /* font-size: 10px; */
+    color: #F1F1F1;
+    padding: 0;
+    margin: 0;
+   }
+.suge{
+    background-color: rgba(44, 44, 46, 0.514);
+    border-color: transparent;
+    border-radius: 15%;
+    margin: 12px 12px 12px 0;
+    padding: 5px;
+}
+.todos{    
+    background-color: #F1F1F1;
+    border-color: transparent;
+    border-radius: 8px;
+    margin: 12px 12px 12px 24px  ;
+    padding: 0 12px;
+}
+.todosugep{
+    color: #0F0F0F;
+    padding: 5px;
+}
+.next{
+    background-color: rgba(44, 44, 46, 0.514);
+    border-color: transparent;
+    border-radius: 15%;
+    margin: 5px;
+    padding: 5px;
+    color: #F1F1F1;
+
+}
+/* videos */
+.videos{
+/* justify-content: space-between; */
+    display: flex;
+    float: left;
+/* flex-direction: column;
+width: 50%;
+align-items: center; */
+}
+   
+.video{
+    background-color: black;
+    border-radius: 5%;
+    border-color: black;
+}
+
+.cajavideos{    
+    width: 300px;
+    height: 300px;
+    padding: 10px 0 0 10px;
+    border-color: black;
+   }
+
+.cover{    
+    width: 283px;
+}
+
+.cov{
+    width: 45px;
+    height: 100px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.infovideo {
+    width: 283px;
+}
+
+h5{
+    font-size: 17px;
+    width: 280px;
+    margin: 5px 0 2px 2px;
+    color: rgba(240, 248, 255, 0.774);
+}
+
+.infovideo1{
+    margin: 0;
+    color: rgba(240, 248, 255, 0.774);
+}
+.infovideo2{
+    margin: 0;
+    color: rgba(240, 248, 255, 0.774);
+}
+.vid{
+    width: 266px;
+    height: 152px;
+}
+.img{
+    width: 45px;
+    height: 45px;
+}
