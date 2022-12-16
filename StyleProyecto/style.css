@@ -15,7 +15,7 @@ a:link, a:visited, a:active {
     /* display: inline; */
     background-color: #0F0F0F;
     
-    height: 900px;
+    height: 2000px;
    
     margin: 0;
     padding: 0;
@@ -232,12 +232,10 @@ p{
 }
 /* videos */
 .videos{
-/* justify-content: space-between; */
+justify-content: center;
     display: flex;
+    /* flex-direction: column;     */
     float: left;
-/* flex-direction: column;
-width: 50%;
-align-items: center; */
 }
    
 .video{
@@ -291,4 +289,126 @@ h5{
 .img{
     width: 45px;
     height: 45px;
+}
+
+/* ---------------------------------------Responsive---------------------------------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+        .videos{
+        flex-flow: column wrap;
+    }
+    .cajavideos{
+        flex-flow: column wrap;      
+    }
+    .sugerencias{
+        background-color: red;
+    }
+
+    .suge{
+        padding: 0;
+        margin: 0%;       
+        
+    }
+    .todos{
+        padding: 0;
+        margin: 0%; 
+
+    }
+    
+  
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  
+    .videos{
+        flex-flow: column wrap;
+    }
+    .cajavideos{
+        flex-flow: column wrap;      
+    }
+    .sugerencias{
+        background-color: red;
+    }
+
+    .suge{
+        padding: 0;
+        margin: 0%;       
+        
+    }
+    .todos{
+        padding: 0;
+        margin: 0%;
+    }
+    .bli{
+        padding: 0;
+        margin: 0%;
+        height: 60px;
+    }
+    .bli1{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 0%;
+        /* padding: 0; */
+        /* margin: 0%; */
+        width: 0;
+        height: 0;
+    }
+    .inicio{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 0%;
+        /* padding: 0; */
+        /* margin: 0%; */
+        width: 0;
+        height: 0;
+    }
+ 
+    .blimenu {
+        /* width: 200px; */
+        /* height: 60px; */
+        /* margin: 0px 3px 3px 0; */
+        border-radius: 7%;
+        display: flex;
+        padding: 5px 0 0 10px;
+        border-color: transparent;
+        align-content: stretch;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+    .columna1{
+        flex-direction: column;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+    }
+    .textop{
+        margin: 0%;
+        
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cajavideos{
+        flex-flow: row wrap;
+    }
 }
